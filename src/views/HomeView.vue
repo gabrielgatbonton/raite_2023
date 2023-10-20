@@ -257,90 +257,15 @@
 </template>
 
 <script>
-import Heading from "../components/LandingPage/Heading";
-import HeroSection from "../components/LandingPage/HeroSection";
-import PageContent from "../components/LandingPage/PageContent";
-import Testimonials from "../components/LandingPage/Testimonials";
-import AboutUs from "../components/LandingPage/AboutUs";
+  import HelloWorld from '../components/HelloWorld'
 
-export default {
-  name: "Home",
-  components: {
-    Heading,
-    HeroSection,
-    PageContent,
-    Testimonials,
-    AboutUs,
-  },
+  export default {
+    name: 'Home',
 
-  data: () => ({
-    clients: [
-      {
-        name: "Justin Austin",
-        age: 43,
-        testimonial:
-          " Feel better. The mentor listened very well, felt very understanding because what I felt was validated by the mentor that it was normal. Was given advice from different points of view which I thought was great.",
-      },
-      {
-        name: "Prince Charles Clemente",
-        age: 47,
-        testimonial:
-          " Feel better. The mentor listened very well, felt very understanding because what I felt was validated by the mentor that it was normal. Was given advice from different points of view which I thought was great.",
-      },
-      {
-        name: "Gabriel Gatbonton",
-        age: 42,
-        testimonial:
-          " Feel better. The mentor listened very well, felt very understanding because what I felt was validated by the mentor that it was normal. Was given advice from different points of view which I thought was great.",
-      },
-    ],
-
-    steps: [
-      {
-        image: "Steps 1.png",
-        description:
-          "Pre-visit text serve as appointment reminders and initiate patient intake",
-      },
-      {
-        image: "Steps 4.png",
-        description: "Different experience for new and old patients",
-      },
-      {
-        image: "Steps 4.png",
-        description: "Unique link opens an interactive with Health Note",
-      },
-    ],
-
-    articles: [
-      {
-        color: "#5A6282",
-        headline:
-          "Heavy Stress? Come On, Identify The Causes And How To Overcome Them!",
-        topic: "Mental Health",
-        date: "2023, 25 May",
-        content:
-          "Lorem ipsum dolor sit amet consectetur. Imperdiet id nunc eu tincidunt at in facilisis. Nibh vitae consequat elit varius aliquam aliquam quis lectus.",
-      },
-      {
-        color: "#0F152B",
-        headline:
-          "Often Blame others When Failed? Recognize Self-Serving Bias Behavior",
-        topic: "Self Understanding",
-        date: "2023, 13 June",
-        content:
-          "Lorem ipsum dolor sit amet consectetur. Imperdiet id nunc eu tincidunt at in facilisis. Nibh vitae consequat elit varius aliquam aliquam quis lectus.",
-      },
-      {
-        color: "#3E92B6",
-        headline: "7 Signs Your Mental Health Is In Good Condition",
-        topic: "Mental Health",
-        date: "2023, 25 May",
-        content:
-          "Lorem ipsum dolor sit amet consectetur. Imperdiet id nunc eu tincidunt at in facilisis. Nibh vitae consequat elit varius aliquam aliquam quis lectus.",
-      },
-    ],
-  }),
-};
+    components: {
+      HelloWorld,
+    },
+  }
 </script>
 
 <style scoped>
